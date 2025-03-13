@@ -1,14 +1,19 @@
 import React from "react";
 import girl from "../../../assets/Images/girl.png"
+import Kari from "../../../assets/Images/Kari.jpeg"
 import { FaGraduationCap } from "react-icons/fa";
 
 export const Main = () => {
     return(
       <div className="flex flex-col md:flex-row items-center justify-center px-2 gap-10 py-15">
 
-        <div className="md:w-1/2 flex justify-center p-6 pr-10">
-         <img src={girl} alt="" className="w-110 h-110 rounded-full shadow-lg"/> 
-        </div>
+    <div className="w-full md:w-1/2 flex justify-center items-center p-4 md:p-6 lg:p-10">
+       <img 
+        src={Kari} 
+        alt="Perfil" 
+        className="w-40 md:w-60 lg:w-80 h-auto rounded-full shadow-lg"/> 
+    </div>
+
         
 
         <div className="md:w-1/2 text-center md:text-left">
