@@ -1,5 +1,12 @@
 import React from 'react';
-import { FaCode, FaUsers } from "react-icons/fa";
+import { FaCode,FaJava, FaUsers,FaHtml5,FaGit,FaGithub,FaLightbulb, FaCss3Alt, FaReact, FaNodeJs} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMongodb } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { CiViewList } from "react-icons/ci";
+
+
 
 export const AboutMe = () => {
   return (
@@ -24,23 +31,23 @@ export const AboutMe = () => {
               <h3 className="text-pink-900 text-lg md:text-xl font-semibold mb-3 text-center md:text-left">Frontend</h3>
               <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-start gap-4 md:gap-x-6 relative before:absolute before:w-full before:h-1 before:top-1/2 mb-8">
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaHtml5 className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">HTML</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  < FaCss3Alt  className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">CSS</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <IoLogoJavascript className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">JavaScript</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaReact className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">React</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <RiTailwindCssFill className="w-10 h-10 bg-pink-900 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">Tailwind</p>
                 </div>
               </div>
@@ -48,23 +55,23 @@ export const AboutMe = () => {
               <h3 className="text-green-800 text-lg md:text-xl font-semibold mb-3 text-center md:text-left">Backend y Bases de Datos</h3>
               <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-start gap-4 md:gap-x-6 relative before:absolute before:w-full before:h-1 before:top-1/2 mb-8">
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaNodeJs  className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">Node.js</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <SiMongodb className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">MongoDB</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <IoLogoJavascript className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">JavaScript</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <GrMysql className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">MySQL</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaJava className="w-10 h-10 bg-green-800 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">Java</p>
                 </div>
               </div>
@@ -75,11 +82,11 @@ export const AboutMe = () => {
               <h3 className="text-gray-800 text-lg md:text-xl font-semibold mb-3 text-center md:text-left">Control de Versiones</h3>
               <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-start gap-4 md:gap-x-6 relative before:absolute before:w-full before:h-1 before:top-1/2 mb-8 max-w-[60%] md:max-w-full mx-auto">
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-gray-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaGit className="w-10 h-10 bg-gray-800 text-white flex items-center justify-center rounded-full shadow-lg" />
                   <p className="mt-2 text-gray-700 text-sm">Git</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-gray-800 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaGithub className="w-10 h-10 bg-gray-800 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">GitHub</p>
                 </div>
               </div>
@@ -87,11 +94,11 @@ export const AboutMe = () => {
               <h3 className="text-fuchsia-950 text-lg md:text-xl font-semibold mb-3 text-center md:text-left">Educación y Liderazgo</h3>
               <div className="flex flex-wrap md:flex-nowrap justify-center md:justify-start gap-4 md:gap-x-6 relative before:absolute before:w-full before:h-1 before:top-1/2 mb-8 max-w-[60%] md:max-w-full mx-auto">
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-fuchsia-950 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <FaLightbulb className="w-10 h-10 bg-fuchsia-950 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">Lógica</p>
                 </div>
                 <div className="relative text-center">
-                  <div className="w-10 h-10 bg-fuchsia-950 text-white flex items-center justify-center rounded-full shadow-lg"></div>
+                  <CiViewList className="w-10 h-10 bg-fuchsia-950 text-white flex items-center justify-center rounded-full shadow-lg"/>
                   <p className="mt-2 text-gray-700 text-sm">Preparación</p>
                 </div>
               </div>
